@@ -1,0 +1,29 @@
+let result = 30
+
+if(result >=80){
+    console.log("you got A+")
+}
+else if(result >=70 && result <=79){
+    console.log("you got A")
+}
+
+
+else if(result >=60 && result <=69 ) {
+    console.log("you got A-")
+}
+
+else if(result >=50 && result <=59 ) {
+    console.log("you got B")
+}
+
+else if(result >=40 && result <=49 ) {
+    console.log("you got B-")
+}
+
+else if(result >=33 && result <=39 ) {
+    console.log("you got D")
+}
+
+else if(result <=32) {
+    console.log("you failed")
+}
